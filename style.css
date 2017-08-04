@@ -1,0 +1,40 @@
+
+body{
+	width:1080px;
+	margin: 30px auto;
+	font-family: Helvetica;
+}
+#input table{
+	background-color: olive;
+}
+
+table{
+	width:100%;
+}
+
+table tr{
+	font-size: 0.8em; 
+	height: 20px;
+}
+
+table td{
+	padding:9px 3px 7px 7px;	
+}
+
+input{
+	width: 70%;
+	height: 20px;
+}
+
+select{
+	width: 70%;
+	height: 25px;
+}
+
+#output table tbody tr:nth-child(odd){
+	background-color: grey;
+}
+
+#output table tbody tr:nth-child(even){
+	background-color: lightgrey;
+}
