@@ -13,6 +13,11 @@ class studentEnrollment{
 
 	assignEvent(){
 		this.grade.addEventListener('keypress', (e) => {
+			if(this.name.value == ''){
+				alert("Please enter the name");
+				this.name.focus();
+				return false;
+			}
 			if(e.keyCode === 13) {
 				this.submitStudent();
 			}
